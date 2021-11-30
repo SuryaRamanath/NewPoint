@@ -9,6 +9,7 @@ export default function Home() {
     <section>
       <Navbar />
       <Hero />
+      <About />
     </section>
   )
 }
