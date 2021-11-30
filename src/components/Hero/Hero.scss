@@ -4,14 +4,16 @@
   
   }
   .carousel{
-    max-height: 90vh;
+    min-height: 100vh;
+    max-height: 100vh;
     @media(max-width: 767px){
         min-height: 40vh;
       max-height: 40vh;
     }
   
     img{
-      max-height: 90vh;
+        min-height: 100vh;
+      max-height: 100vh;
       @media(max-width: 767px){
           min-height: 40vh;
         max-height: 0vh;
