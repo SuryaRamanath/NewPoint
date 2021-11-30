@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useEffect, useState } from "react";
 import "./Header.scss";
-import logo from "./logo.jpeg"
+import logo from "./logo.png"
 const Header = () => {
   const [click, setClick] = useState(false);
   const [navShrink, setnavShrink] = useState(false)
