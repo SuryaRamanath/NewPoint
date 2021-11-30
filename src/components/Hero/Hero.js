@@ -15,6 +15,7 @@ export default function Hero() {
         showThumbs={false}
         showStatus={false}
         autoPlay={true}
+        showIndicators={false}
         interval={3000}>
         <div>
           <img src={slider1} />
